@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Jersson%20Graffe&fontSize=44&fontColor=ffffff&animation=twinkling&fontAlignY=34&desc=backend%20%7C%20devops%20%7C%20applied%20ai&descSize=18&descAlignY=54" alt="Jersson Graffe" />
 
 <a href="https://portfoliodevjersson.netlify.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2DD4BF&center=true&vCenter=true&width=700&lines=Backend+Engineer;Cloud+Native+%2F%2F+DevOps;Applied+AI+%C2%B7+LLM+Systems;Python+%C2%B7+C%23+.NET+%C2%B7+Kubernetes" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2DD4BF&center=true&vCenter=true&width=700&lines=Backend+Engineer;Cloud+Native+%2F%2F+DevOps;Applied+AI+%C2%B7+Agents;Spec-Driven+Development" alt="typing" />
 </a>
 
 </div>
@@ -12,38 +12,47 @@
 jersson@cloud:~$ whoami
 >> i build systems that scale — and systems that think.
 
-   backend   ──▶  apis · services · typed contracts · observability
+   backend   ──▶  apis · services · typed contracts
    devops    ──▶  iac · pipelines · kubernetes · cloud
-   ai        ──▶  llm apps · agents · rag pipelines
+   ai        ──▶  llm · agents · rag · spec-driven dev
 ```
 
 <sub>**Curitiba, BR · open to remote**  —  `infrastructure that disappears, code that lasts.`</sub>
 
 ---
 
-## 01 · backend
+```console
+jersson@cloud:~$ cat architecture.txt
 
-> typed contracts, observable services.
+     client ──▶ [ api ] ──▶ [ data ]
+                   │
+                   ├──▶ [ cloud / k8s ]
+                   └──▶ [ llm · agents ]
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,fastapi,flask,django,dotnet,cs,postgres,mongodb,redis,rabbitmq,kafka&theme=dark" />
-</p>
+jersson@cloud:~$ tree ~/stack
 
-## 02 · devops & cloud
+backend/
+├─ languages     python · c#/.net
+├─ apis          fastapi · django · flask · webapi
+├─ data          postgresql · sql-server · mongodb
+├─ streams       redis · rabbitmq · kafka
+└─ quality       pytest · xunit · tdd · clean-architecture
 
-> declarative, immutable, reproducible.
+devops/
+├─ cloud         aws/eks · ecs · lambda · rds · s3
+├─ containers    docker · kubernetes · helm
+├─ iac           terraform · terragrunt
+├─ delivery      github-actions · gitlab-ci · argocd
+└─ observe       prometheus · grafana · elk
 
-<p>
-<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,helm,terraform,githubactions,gitlab,argocd,prometheus,grafana,linux,nginx,bash&theme=dark" />
-</p>
-
-## 03 · applied ai
-
-> from prompts to pipelines.
-
-<p>
-<img src="https://skillicons.dev/icons?i=openai,pytorch,tensorflow,huggingface,scikitlearn,jupyter,git,github,githubactions,redis&theme=dark" />
-</p>
+ai/
+├─ llm           openai · prompts · tool-use
+├─ agents        compound-agents · multi-agent · memory
+├─ rag           embeddings · pgvector · retrieval
+├─ context       context-eng · orchestration · workflows
+├─ llmops        evals · guardrails · observability
+└─ sdd           spec-driven-development · ai-assisted-code
+```
 
 ---
 
