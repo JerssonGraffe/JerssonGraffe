@@ -86,13 +86,7 @@ I design scalable backends and cloud-native platforms that stay boring in produc
 
 ### `// signal`
 
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JerssonGraffe&theme=tokyonight" alt="profile" />
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=JerssonGraffe&theme=tokyonight" alt="repos per language" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=JerssonGraffe&theme=tokyonight" alt="top commit language" />
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=JerssonGraffe&theme=tokyonight" alt="stats" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=JerssonGraffe&theme=tokyonight&utcOffset=-3" alt="productive time" />
+<img width="68%" src="https://github-readme-streak-stats.herokuapp.com/?user=JerssonGraffe&theme=tokyonight&hide_border=true&background=0D1117&ring=2DD4BF&fire=2DD4BF&currStreakLabel=2DD4BF&sideNums=2DD4BF" alt="streak" />
 
 </div>
 
